@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="MedNotes RuleSet" Description=" " ToolsVersion="15.0">
+  <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
+    <Rule Id="CA1001" Action="Info" />
+    <Rule Id="CA1034" Action="Info" />
+    <Rule Id="CA1308" Action="Info" />
+    <Rule Id="CA1056" Action="Info" />
+    <Rule Id="CA1801" Action="Info" />
+    <Rule Id="CA1822" Action="Info" />
+    <Rule Id="CA1717" Action="Info" />
+    <Rule Id="CA2234" Action="Info" />
+    <Rule Id="CA1710" Action="Info" />
+    
+    <Rule Id="CA1304" Action="None" />
+    <Rule Id="CA1305" Action="None" />
+    <Rule Id="CA1307" Action="None" />
+    <Rule Id="CA1051" Action="None" />
+    <Rule Id="CA1815" Action="None" />
+    
+    <!-- CsvHelper is using these classes for the loading of the data. -->
+    <Rule Id="CA1812" Action="None" />
+
+    <!-- 
+    All rules below should be warnings, and enable as such.
+    When enabled they will fail build.
+    -->
+    <Rule Id="CA1802" Action="Info" />
+    <Rule Id="CA1819" Action="Info" />
+    <Rule Id="CA1825" Action="Info" />
+    <Rule Id="CA1826" Action="Info" />
+    <Rule Id="CA1707" Action="Info" />
+    <Rule Id="CA2007" Action="Info" />
+  </Rules>
+</RuleSet>

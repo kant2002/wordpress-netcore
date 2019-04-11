@@ -1,0 +1,12 @@
+﻿<Project>
+  <PropertyGroup>
+    <Company>Andrii Kurdiumov</Company>
+    <Copyright>Copyright © Andrii Kurdiumov 2019</Copyright>
+    <VersionPrefix>0.0.1</VersionPrefix>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <AdditionalFileItemNames>StyleCopSettings</AdditionalFileItemNames>
+
+    <EFCoreVersion>2.1.4</EFCoreVersion>
+  </PropertyGroup>
+</Project>
